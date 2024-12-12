@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.delivery_content{
+    text-align: center;
+    padding: 50px;
+
+}
+.delivery_content h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 50px;
+}
+.delicery_content_header h2{
+    font-weight: 650;
+    margin-top: 40px;
+}
+.delivery_context{
+    color: #6c6c6c;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+/* delivery_methods----------------------------------------- */
+
+.delivery_methods h1{
+    margin-top: 70px;
+    text-align: center;
+    font-weight: 650;
+    font-size: 45px;
+}
+.delivery_title h2{
+    /* color: red; */
+    font-size: 30px;
+    font-weight: 560;
+}
+.delivery_title p{
+    color: #6c6c6c;
+    font-size: 14px;
+    margin-top: 15px;
+}
+.delivery_method{
+    /* border: 2px solid blue; */
+    padding:60px;
+    margin-bottom: 20px;
+}
+.delivery_method_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 80px;
+}
+.delivery_method_content i{
+    font-size: 90px;
+}
+#logo{
+    margin-top: 13.5px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+#logo:active{
+    transform: scale(1.1);
+}
+
+
+/* responsive */
+@media screen and (max-width:785px){
+    .number_add{
+        height: 25px;
+        width: 28px;
+        position: relative;
+        top: -42px;
+        left: 153px;
+
+    }
+    .delivery_content h1 {
+        font-size: 25px;
+        font-weight: 700;
+        margin-top: -9px;
+    }
+    
+    .delicery_content_header h2 {
+        font-weight: 650;
+        margin-top: 23px;
+    }
+    .delivery_methods h1 {
+        text-align: center;
+        font-weight: 650;
+        font-size: 25px;
+    }
+    .delivery_method_content i {
+        font-size: 35px;
+    }
+    
+    .delivery_method {
+        padding: 20px;
+        margin-bottom: 20px;
+    }
+    .delivery_method {
+        padding: 20px;
+        margin-bottom: 0px;
+    }
+    .delivery_method_content {
+        flex-direction: column;
+        gap: 16px;
+    }
+    .delivery_content {
+        text-align: center;
+        padding: 20px;
+    }
+    .delivery_methods h1 {
+        margin-top: 9px;
+        text-align: center;
+        font-weight: 650;
+        font-size: 25px;
+    }
+}

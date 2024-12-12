@@ -1,0 +1,253 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* side bar */
+.bakery_product_side{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+
+}
+.bakery_products_items{
+    display: flex;
+    padding: 50px 0px 100px 0px;
+    /* background: url("/images/main_img1.jpg"); */
+
+}
+.bakery_product_item img{
+    height: 318px;
+    object-fit: cover;
+}
+.bakery_product_item{
+    padding: 0px 50px 0px 0px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+    gap: 20px;
+}
+
+
+#logo{
+    margin-top: 11px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+#logo:active{
+    transform: scale(1.1);
+}
+/*  cart */
+
+.item_exButtons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.number_add{
+    color: white;
+    position: absolute;
+    top: 24px;
+    right: 342px;
+    background-color: red;
+    padding: 0px 8px;
+    border-radius: 14px;
+}
+
+.minus,
+.plus{
+    padding: 2px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.productList{
+    margin-top: 20px;
+    /* overflow-y: scroll; */
+}
+.line_define{
+    height: 2px;
+    background-color: red;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.extDisplay {
+    display: block;
+    color: white;
+    position: absolute;
+    top: 17.2%;
+    right: 0px;
+    width: 400px;
+    padding: 10px;
+    height: 76.8vh;
+    transition: 0.5s;
+    background: rgb(0 0 0 / 91%);
+    z-index: 99;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+.productList {
+    margin-bottom: 60px; /* Space for the fixed checkout */
+    overflow-y: auto;
+}
+
+.checkout {
+    position: sticky; /* Keeps it visible at the bottom while scrolling */
+    top: 10px;/* Stick to the bottom of the parent container */
+    background-color: black; /* Optional for visibility */
+    padding: 10px;
+    z-index: 100; /* Ensure it's above other elements */
+}
+
+.total {
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0;
+    gap: 120px;
+}
+.cross{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+.cartName{
+    text-align: center;
+
+}
+
+.btn_shopee{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    color: green;
+}
+
+
+
+
+
+.item_exButtons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+.number_add{
+    color: white;
+    position: absolute;
+    top: 24px;
+    right: 342px;
+    background-color: red;
+    padding: 0px 8px;
+    border-radius: 14px;
+}
+
+.minus,
+.plus{
+    padding: 2px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.productList{
+    margin-top: 20px;
+    /* overflow-y: scroll; */
+}
+.line_define{
+    height: 2px;
+    background-color: red;
+    width: 100%;
+    margin: 10px 0;
+}
+
+.extDisplay {
+    display: none;
+    color: white;
+    position: absolute;
+    top: 23.9%;
+    right: 0;
+    width: 400px;
+    padding: 10px;
+    height: 77.5vh;
+    transition: 0.5s;
+    background: rgb(0 0 0 / 91%);
+    z-index: 99;
+    border-radius: 10px;
+    overflow-y: scroll; /* Allow scrolling inside the container */
+}
+
+.productList {
+    margin-bottom: 60px; /* Space for the fixed checkout */
+    overflow-y: auto;
+}
+
+.checkout {
+    position: sticky; /* Keeps it visible at the bottom while scrolling */
+    top: 10px;/* Stick to the bottom of the parent container */
+    background-color: black; /* Optional for visibility */
+    padding: 10px;
+    z-index: 100; /* Ensure it's above other elements */
+}
+
+.total {
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 10px 0;
+    gap: 120px;
+}
+.cross{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+.cartName{
+    text-align: center;
+
+}
+
+
+
+
+/* making it responsive */
+@media screen and (max-width:785px){
+.footer_side2{
+    display: none;
+}
+.visible_category_section{
+    display: none;
+}
+.bakery_product_item {
+    padding: 0px 0px 0px 0px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 20px;
+}
+.number_add {
+    height: 25px;
+    width: 28px;
+    position: relative;
+    top: -42px;
+    left: 153px;
+}
+
+.extDisplay {
+    display: none;
+    color: white;
+    position: absolute;
+    top: 47%;
+    right: 12%;
+    width: 330px;
+    padding: 10px;
+    height: 60.5vh;
+}
+}

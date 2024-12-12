@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+#logo{
+    margin-top: 13.5px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+#logo:active{
+    transform: scale(1.1);
+}
+.contact_container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 50px;
+}
+
+iframe{
+    height: 400px;
+}
+.location,.phone,.mail{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 10px;
+}
+i{
+    position: relative;
+    top: 5px;
+
+}

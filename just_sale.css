@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.sale_item_pic img{
+    height: 347px;
+    width: 220px;
+}
+.sale_item{
+    display: flex;
+    justify-content: space-between;
+    gap: 190px;
+    padding: 50px;
+}
+.sale_item_pic{
+    position: relative;
+    left: 10%;
+}
+.sale_brand_sale{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 85px;
+    flex-wrap: wrap;
+    color: #666565;
+}
+.sale_item_quantity input{
+    width: 12%;
+    background-color: white;
+    border: 1px solid grey;
+    height: 40px;
+    border-radius: 15px;
+}
+
+.sale_slider_img img{
+    height: 192px;
+    width: 50px;
+    padding: 0px 24px;
+    object-fit: contain;
+}
+.sale_slider_img{
+    margin-top: 30px;
+}
+.side_icon{
+    background-color: green !important;
+}
+.brand_color_label{
+    margin: 30px 0px 10px 0px;
+    color: #666565;
+}
+.brand_diatary{
+    margin: 30px 0px 10px 0px;
+    color: #666565;
+}
+.sale_item_quantity p{
+    color: #666565;
+}
+.sale_item_addcart{
+    padding: 15px 48px;
+    margin: 10px 0;
+    background-color: #FF9F00;
+    font-weight: 660;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+#logo{
+    margin-top: 13.5px;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+}
+#logo:active{
+    transform: scale(1.1);
+}
+.sale_item_buycart{
+    padding: 15px 56px;
+    margin: 10px 0;
+    background-color: #FB641B;
+    font-weight: 660;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+select {
+    padding: 12px;
+    width: 46%;
+    border-radius: 15px;
+}
+
+.sale_item_description{
+    padding: 20px 50px 10px;
+}
+
+/* other buttons */
+.sale_item_description_btn{
+    padding: 4px 29px;
+    border: none;
+
+}
+.sale_item_review_btn{
+    padding: 4px 29px;
+    border: none;
+}
+.sale_item_descriptionAll{
+    padding: 20px 0px 20px;
+    color: #666565;
+}
+.sale_info{
+    color: #666565;
+}
+
+
+/* other sale sec */
+.related_products_header{
+text-align:center;
+font-size: 30px;
+font-weight: 660;
+}
+
+
+/* address */
+.address_plate{
+    width: 100%;
+    background-color: grey;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 50px;
+    font-size: 18px;
+    color: whitesmoke;
+}

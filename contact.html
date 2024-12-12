@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+
+    <!-- Navbar content -->
+    <nav class="navbar navbar-expand-lg navbar-light nav">
+        <div class="container-fluid">
+          <a class="nav-link active" aria-current="page"  href="/index.html"><img src="/images/drinks/logo-removebg-preview.png" alt="" height="100px" id="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/bakery.html">Bakery</a></li>
+                  <li><a class="dropdown-item" href="/drinks.html">Coffie and Tea</a></li>
+                  <li><a class="dropdown-item" href="/drinks.html">Drinks</a></li>
+                  <li><a class="dropdown-item" href="/meat.html">Meat(Non-veg food)</a></li>
+                  <li><a class="dropdown-item" href="/meat.html">Fruits and Vegetables</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SignUp/ Log In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping" id="cart_icon"></i></a>
+                <p class="number_add">0</p>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<div class="contact_container">
+
+<div class="store_info">
+    <p class="store_info_lol">STORE INFORMATION</p>
+    <div class="store_info_address">
+            <div class="location">
+                <i class="fa-solid fa-location-dot bio-icon"></i>
+                <div class="address-content">
+                <p class="phone_call">Address:</p>
+                <p  class="location_content">Kolhapur,Maharashtra,India</p>
+              </div>
+            </div>
+<hr>
+            <div class="phone">
+                <i class="fa-solid fa-phone bio-icon"></i>
+                <div class="phone-content">
+                <p class="phone_call">Call us:</p>
+                <p>1234567890</p>
+            </div>
+            </div>
+<hr>
+            <div class="mail">
+                <i class="fa-regular fa-envelope bio-icon"></i>
+                <div class="mail-content">
+                <p class="mail_mail">Email us:</p>
+                <a href="mailto:bhushan752002@gmail.com">bhushan752002@gmail.com</a>
+            </div>
+            </div>
+            <hr>
+            
+    </div>
+</div>
+
+            <div class="map_container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122283.68866846012!2d74.15646562894707!3d16.70861665655813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1000cdec07a29%3A0xece8ea642952e42f!2sKolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1722659381351!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
+        </div>
+    </div>
+
+
+        <!-- ---------Contact page------------->
+
+    <div class="contact-container" id="contact">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you! Please fill out this form and we will get in touch with you shortly.</p>
+        <form action="#" class="contact-form">
+            <div class="form-group form-inline">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <!-- ------------------footer-------------------------- -->
+        <footer>
+            <div class="footer_content">
+                <div class="footer_side1">
+                <!-- logo -->
+                <p class="glo_name">Glocery India store</p>
+                <p class="phone_no">(111-111-111-11)</p>
+                <p class="footer_mail">
+                <a href="mailto:example@example.com">bhushan752002@gmail.com</a>
+                </p>
+                <p class="footer_copyright">copyright- @bhushan_dandavate.</p>
+                </div>
+                <div class="footer_side2">
+                <p class="footer_para">INFORMATION</p>
+                <ul>
+                  <li><a href="/delivery.html">Delivery</a></li>
+                  <li><a href="/legalNotice.html">Legal Notice</a></li>
+                  <li><a href="/termsConditions.html">Terms and conditions</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="/payment.html">Secure payments</a></li>
+                  <li><a href="/contact.html">Contact us</a></li>
+                  <li><a href="#">Stores</a></li>
+                </ul>
+                </div>
+    
+                <div class="footer_side3">
+                <p class="footer_para">HOME</p>
+                <ul>
+                  <li><a href="/bakery.html">Bakery</a></li>
+                  <li><a href="/drinks.html">Beer</a></li>
+                  <li><a href="#">Coffee and Tea</a></li>
+                  <li><a href="/meat.html">Meat</a></li>
+                  <li><a href="/meat.html">Seafood</a></li>
+                  <li><a href="#">Prepared food</a></li>
+                </ul>
+                </div>
+            </div>
+        </footer>
+        </div>
+
+
+
+          <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="just_sale.css">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+     <!-- Navbar content -->
+     <nav class="navbar navbar-expand-lg navbar-light nav">
+        <div class="container-fluid">
+          <a class="nav-link active" aria-current="page"  href="/index.html"><img src="/images/drinks/logo-removebg-preview.png" alt="" height="100px" id="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/bakery.html">Bakery</a></li>
+                  <li><a class="dropdown-item" href="/drinks.html">Coffie and Tea</a></li>
+                  <li><a class="dropdown-item" href="/drinks.html">Drinks</a></li>
+                  <li><a class="dropdown-item" href="/meat.html">Meat(Non-veg food)</a></li>
+                  <li><a class="dropdown-item" href="/meat.html">Fruits and Vegetables</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">SignUp/ Log In</a>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+      <!-- plate where address going to visible -->
+<div class="address_plate">
+    <p>Home</p>
+</div>
+
+ <!-- just sale items -->
+  <div class="sale_item">
+    <div class="sale_item_pic">
+        <img src="/images/coke/coca.jpg" alt="">
+        <div class="sale_item_slider">
+            <div id="carouselExample" class="carousel slide sale_slider_img">
+                <div class="carousel-inner">
+                  <div class="carousel-item active ">
+                    <img src="/images/coke/coca.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/coke/coca1.jpg" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/coke/coca2.jpg" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon side_icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                  <span class="carousel-control-next-icon side_icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+    </div>
+    <div class="sale_item_buy">
+        <h2 class="sale_item_proName">Name of product</h2>
+        <h2 class="sale_item_price">Rs. 50</h2>
+        <p class="sale_info">Many people love supermarkets for the variety of products they can buy there. Such customers adore looking at the collection of different stuff and choose from all these things. </p>
+        <div class="sale_brand_sale">
+            <p class="brand_sale">Brand</p>
+            <p class="brand_sale_name">Brand name</p>
+        </div>
+        <div class="sale_brand_sale">
+            <p class="brand_sale">Brand</p>
+            <p class="brand_sale_name">Brand name</p>
+        </div>
+
+        <div class="sale_item_quantity">
+            <p>Choose Quantity</p>
+            <input type="number" value="1" min="1" max="100">
+        </div>
+
+        <button class="sale_item_addcart">Add to cart</button>
+        <br>
+        <button class="sale_item_buycart">Buy Now</button>
+    </div>
+  </div>
+  <hr>
+  <div class="sale_item_description">
+    <button class="sale_item_description_btn">Description</button>
+    <button class="sale_item_review_btn">reviews</button>
+    <div class="sale_item_descriptionAll">
+<p>Many people love supermarkets for the variety of products they can buy there. Such customers adore looking at the collection of different stuff and choose from all these things. </p> 
+
+    <p>However the products are strictly classified, so the shoppers seeking for exact items would surely find what they want. The assortment is not only comfortably structured, but also wide. We treat every customer as a welcoming guest and that's why the main elements of the supermarket are totally adapted for the visitors' comfort. First of all, it's worth to be mentioned about the good loyal prices suitable for any customer. Then, you'll get only positive impressions from our service level - professional staff of specially taught employees knows well what they are doing to leave the customer happy. The building is always light and clean. </p>
+    
+    <p>The idea of representing the supermarket on the web naturally comes from the general concept of satisfying the customers' needs. We do everything required to increase the navigation and usability of the website: all visitors will get an enjoyable experience of checking the assortment. A beautiful design with high-resolution illustrations and stylish typography immediately demonstrate the theme of the website while outlining all the benefits of using our supermarket. </p>
+    
+    <p>Don't miss your chance to stay in contact with us. This opportunity is given by the website, which in addition to professional design provides with responsive layouts, which change their size due to the screen resolution. That means you can comfortably get on the website from your smartphone or tablet and check all the necessary updates.</p>
+  </div>
+  </div>
+
+    <!-- ------------------footer-------------------------- -->
+    <footer>
+        <div class="footer_content">
+            <div class="footer_side1">
+            <!-- logo -->
+            <p class="glo_name">Glocery India store</p>
+            <p class="phone_no">(111-111-111-11)</p>
+            <p class="footer_mail">
+            <a href="mailto:example@example.com">bhushan752002@gmail.com</a>
+            </p>
+            <p class="footer_copyright">copyright- @bhushan_dandavate.</p>
+            </div>
+
+            <div class="footer_side2">
+            <p class="footer_para">INFORMATION</p>
+            <ul>
+              <li><a href="/delivery.html">Delivery</a></li>
+              <li><a href="/legalNotice.html">Legal Notice</a></li>
+              <li><a href="/termsConditions.html">Terms and conditions</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="/payment.html">Secure payments</a></li>
+              <li><a href="/contact.html">Contact us</a></li>
+              <li><a href="#">Stores</a></li>
+            </ul>
+            </div>
+
+            <div class="footer_side3">
+            <p class="footer_para">HOME</p>
+            <ul>
+              <li><a href="/bakery.html">Bakery</a></li>
+                <li><a href="/drinks.html">Beer</a></li>
+                <li><a href="#">Coffee and Tea</a></li>
+                <li><a href="/meat.html">Meat</a></li>
+                <li><a href="/meat.html">Seafood</a></li>
+                <li><a href="#">Prepared food</a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

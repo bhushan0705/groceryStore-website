@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="payment.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+
+      <!-- Navbar content -->
+      <nav class="navbar navbar-expand-lg navbar-light nav">
+        <div class="container-fluid">
+          <a class="nav-link active" aria-current="page"  href="/index.html"><img src="/images/drinks/logo-removebg-preview.png" alt="" height="100px" id="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Products
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <li><a class="dropdown-item" href="/bakery.html">Bakery</a></li>
+                  <li><a class="dropdown-item" href="/drinks.html">Coffie and Tea</a></li>
+                  <li><a class="dropdown-item" href="/drinks.html">Drinks</a></li>
+                  <li><a class="dropdown-item" href="/meat.html">Meat(Non-veg food)</a></li>
+                  <li><a class="dropdown-item" href="/meat.html">Fruits and Vegetables</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SignUp/ Log In</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping" id="cart_icon"></i></a>
+                <p class="number_add">0</p>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+
+<!--  cart item -->
+
+<div class="extDisplay">
+<p class="cross">X</p>
+<div class="line"></div>
+<h3 class="cartName">Your cart</h3>
+<ul class="productList">
+<div style="background-color: white; " height="2px"></div>
+</ul>
+
+<div class="checkout">
+<div class="total"> <small>Subtotal (0 items)</small>0 Rs</div>
+</div>
+</div>
+
+<div class="payment_content">
+  <h1>SECURE PAYMENT</h1>
+  </div>
+  <div class="payment_method_header">
+    <h1>PAYMENT METHODS</h1>
+
+    <div class="payment_methods">
+    <div class="payment_method">
+      <div class="payment_method_content">
+        <i class="fa-brands fa-cc-visa"></i>
+      <div class="payment_title">
+        <h2>VISA & MASTERCARD</h2>
+        <p>PAYMENT IS THE FINAL STEP OF THE PURCHASING PROCESS. IT SHOULD NEVER BE AN OBSTACLE. OUR STORE PAYS SPECIAL ATTENTION TO THIS POINT AS MAKING PAYMENT IN A SECURED ENVIRONMENT IS A PRIMARY CONCERN OF INDIVIDUALS. WITH E-COMMERCE GROWTH, AND MORE RECENTLY THE M-COMMERCE EVOLUTION, IT IS ESSENTIAL TO CHOOSE A PAYMENT SOLUTION OPTIMIZED TO SMARTPHONE’S AND TABLETS. IT IS EQUALLY IMPORTANT TO CHOOSE THE SOLUTION WHICH OFFERS A SPECIFIC SELECTION OF CREDIT CARDS THAT ARE MOST POPULAR IN THE MERCHANTS TARGET MARKETS. WE TAKE VISA & MASTERCARD AS THEY ARE WIDELY USED BY CYBER CUSTOMERS.
+        </p>
+      </div>
+    </div>
+  </div>
+    <div class="payment_method">
+      <div class="payment_method_content">
+        <i class="fa-solid fa-pencil"></i>
+      <div class="payment_title">
+        <h2>NONCASH PAYMENT</h2>
+        <p>NONCASH IS A METHOD OF PAYING FOR GOODS AND SERVICES THAT DOES NOT INVOLVE THE EXCHANGE OF CASH. EXAMPLES OF NONCASH PAYMENT INSTRUMENTS INCLUDE CHECKS AND CREDIT CARDS. IN THE UNITED STATES, MOST NONCASH PAYMENTS ARE MADE USING CHECKS, CREDIT CARDS, DEBIT CARDS, AND THE ELECTRONIC PAYMENT SYSTEM CALLED THE AUTOMATED CLEARINGHOUSE (ACH) — COLLECTIVELY REFERRED TO AS RETAIL NONCASH PAYMENTS. JUST CHOOSE WHICH OF THE LISTED NONCASH PAYMENT METHODS IS MORE CONVENIENT FOR YOU.
+        </p>
+      </div>
+    </div>
+  </div>
+    <div class="payment_method">
+      <div class="payment_method_content">
+        <i class="fa-solid fa-sack-dollar"></i>
+      <div class="payment_title">
+        <h2>CASH PAYMENT</h2>
+        <p>CASH PAYMENT IS A FORM OF LIQUID FUNDS GIVEN BY A CONSUMER TO A PROVIDER OF GOODS OR SERVICES (OUR STORE IN THE GIVEN CASE) AS COMPENSATION FOR RECEIVING THE PRODUCTS WE PROVIDE. IN MOST DOMESTIC BUSINESS TRANSACTIONS, A CASH PAYMENT WILL TYPICALLY BE MADE IN THE CURRENCY OF THE COUNTRY WHERE THE TRANSACTION TAKES PLACE, EITHER IN PAPER CURRENCY, IN COINS OR IN AN APPROPRIATE COMBINATION. KEEPING CASH ON HAND CAN BE A GREAT WAY TO AVOID OVERSPENDING. YOU CAN CHOOSE EXACTLY HOW MUCH CASH YOU'RE WILLING TO SPEND AND STOP SPENDING WHEN YOU'RE OUT OF CASH.
+        </p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+         <!-- ------------------footer-------------------------- -->
+    <footer>
+        <div class="footer_content">
+            <div class="footer_side1">
+            <!-- logo -->
+            <p class="glo_name">Glocery India store</p>
+            <p class="phone_no">(111-111-111-11)</p>
+            <p class="footer_mail">
+            <a href="mailto:example@example.com">bhushan752002@gmail.com</a>
+            </p>
+            <p class="footer_copyright">copyright- @bhushan_dandavate.</p>
+            </div>
+
+            <div class="footer_side2">
+            <p class="footer_para">INFORMATION</p>
+            <ul>
+              <li><a href="/delivery.html">Delivery</a></li>
+              <li><a href="/legalNotice.html">Legal Notice</a></li>
+              <li><a href="/termsConditions.html">Terms and conditions</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="/payment.html">Secure payments</a></li>
+              <li><a href="/contact.html">Contact us</a></li>
+              <li><a href="#">Stores</a></li>
+            </ul>
+            </div>
+
+            <div class="footer_side3">
+            <p class="footer_para">HOME</p>
+            <ul>
+              <li><a href="/bakery.html">Bakery</a></li>
+                <li><a href="/drinks.html">Beer</a></li>
+                <li><a href="#">Coffee and Tea</a></li>
+                <li><a href="/meat.html">Meat</a></li>
+                <li><a href="/meat.html">Seafood</a></li>
+                <li><a href="#">Prepared food</a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+      
+<script src="script2.js"></script>
+</body>
+</html>

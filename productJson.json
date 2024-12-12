@@ -1,0 +1,249 @@
+[
+    {
+        "name": "Burger",
+        "price": 100,
+        "img": "/images/burgur.jpg",
+        "category": "Snacks"
+    },
+    {
+        "name": "Cooked Chicken",
+        "price": 599,
+        "img": "/images/cooked_chicken.jpg",
+        "category": "Meat"
+    },
+    {
+        "name": "Rice and Dal",
+        "price": 129,
+        "img": "/images/riceAndDal.jpg",
+        "category": "Meals"
+    },
+    {
+        "name": "Ashirvaad Rice Pack",
+        "price": 100,
+        "img": "/images/ashirvaad-1.jpg",
+        "category": "Grains"
+    },
+    {
+        "name": "Rice Papad Pack",
+        "price": 100,
+        "img": "/images/Rice_Papad.png",
+        "category": "Snacks"
+    },
+    {
+        "name": "Strawberry Pack",
+        "price": 129,
+        "img": "/images/Strawbeery.jpg",
+        "category": "Fruits"
+    },
+    {
+        "name": "Pasta Pack (Hot)",
+        "price": 129,
+        "img": "/images/Gluten Rice Maize Penne Pasta.jpg",
+        "category": "Meals"
+    },
+    {
+        "name": "Apple",
+        "price": 129,
+        "img": "/images/apple/apple11.jpg",
+        "category": "Meals"
+    },
+    {
+        "name": "bake1",
+        "price": 129,
+        "img": "/images/bakery/bake1.jpg",
+        "category": "Bakery"
+    },
+    {
+        "name": "bake2",
+        "price": 129,
+        "img": "/images/bakery/bake2.jpg",
+        "category": "Bakery"
+    },
+    {
+        "name": "bake3",
+        "price": 129,
+        "img": "/images/bakery/bake3.jpg",
+        "category": "Bakery"
+    },
+    {
+        "name": "bake4",
+        "price": 129,
+        "img": "/images/bakery/bake4.jpg",
+        "category": "Bakery"
+    },
+    {
+        "name": "cookie",
+        "price": 129,
+        "img": "/images/bakery/cookie.jpg",
+        "category": "Bakery"
+    },
+    {
+        "name": "cupcake1",
+        "price": 129,
+        "img": "/images/bakery/cupcake1.jpg",
+        "category": "Bakery"
+    },
+    {
+        "name": "donuts",
+        "price": 129,
+        "img": "/images/bakery/donuts.jpg",
+        "category": "Bakery"
+    },
+    {
+        "name": "jalebee",
+        "price": 129,
+        "img": "/images/apple/jalebee.jpg",
+        "category": "Bakery"
+    },
+    {
+        "name": "coffee1",
+        "price": 129,
+        "img": "/images/coffie/coffee1.jpg",
+        "category": "Bacoffiekery"
+    },
+    {
+        "name": "coffee2",
+        "price": 129,
+        "img": "/images/coffie/coffee2.jpg",
+        "category": "coffie"
+    },
+    {
+        "name": "coffee3",
+        "price": 129,
+        "img": "/images/coffie/coffee3.jpg",
+        "category": "coffie"
+    },
+    {
+        "name": "coffee4",
+        "price": 129,
+        "img": "/images/coffie/coffee4.jpg",
+        "category": "coffie"
+    },
+    {
+        "name": "coca",
+        "price": 129,
+        "img": "/images/coke/coca.jpg",
+        "category": "coke"
+    },
+    {
+        "name": "coca1",
+        "price": 129,
+        "img": "/images/coke/coca1.jpg",
+        "category": "coke"
+    },
+    {
+        "name": "coca2",
+        "price": 129,
+        "img": "/images/coke/coca2.jpg",
+        "category": "coke"
+    },
+    {
+        "name": "7up",
+        "price": 129,
+        "img": "/images/drinks/coca2.jpg",
+        "category": "drinks"
+    },
+    {
+        "name": "beer1",
+        "price": 129,
+        "img": "/images/drinks/beer1.jpg",
+        "category": "drinks"
+    },
+    {
+        "name": "drPapper",
+        "price": 129,
+        "img": "/images/drinks/drPapper.jpg",
+        "category": "drinks"
+    },
+    {
+        "name": "limca",
+        "price": 129,
+        "img": "/images/drinks/limca.jpg",
+        "category": "drinks"
+    },
+    {
+        "name": "mDuo",
+        "price": 129,
+        "img": "/images/drinks/mDuo.jpg",
+        "category": "drinks"
+    },
+    {
+        "name": "mirinda",
+        "price": 129,
+        "img": "/images/drinks/mirinda.jpg",
+        "category": "drinks"
+    },
+    {
+        "name": "thumsUp",
+        "price": 129,
+        "img": "/images/drinks/thumsUp.jpg",
+        "category": "drinks"
+    },
+    {
+        "name": "chicken",
+        "price": 129,
+        "img": "/images/meat/chicken.jpg",
+        "category": "meat"
+    },
+    {
+        "name": "crab",
+        "price": 129,
+        "img": "/images/meat/crab.jpg",
+        "category": "meat"
+    },
+    {
+        "name": "fish1",
+        "price": 129,
+        "img": "/images/meat/fish1.jpg",
+        "category": "meat"
+    },
+    {
+        "name": "fish3",
+        "price": 129,
+        "img": "/images/meat/fish3.jpg",
+        "category": "meat"
+    },
+    {
+        "name": "meat3",
+        "price": 129,
+        "img": "/images/meat/meat3.jpg",
+        "category": "meat"
+    },
+    {
+        "name": "meat4",
+        "price": 129,
+        "img": "/images/meat/meat4.jpg",
+        "category": "meat"
+    },
+    {
+        "name": "Peas",
+        "price": 129,
+        "img": "/images/peas/peas1.png",
+        "category": "peas"
+    },
+    {
+        "name": "peas-2",
+        "price": 129,
+        "img": "/images/peas/peas-2.jpg",
+        "category": "peas"
+    },
+    {
+        "name": "peas-3",
+        "price": 129,
+        "img": "/images/peas/peas-3.jpg",
+        "category": "peas"
+    },
+    {
+        "name": "peas-4",
+        "price": 129,
+        "img": "/images/peas/peas-4.jpg",
+        "category": "peas"
+    },
+    {
+        "name": "peas-5",
+        "price": 129,
+        "img": "/images/peas/peas-5.jpg",
+        "category": "peas"
+    }
+
+]

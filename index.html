@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- <link rel="stylesheet" href="product.css"> -->
+
+</head>
+<body>
+    <div class="hero" id="hero">
+
+    <!-- register form -->
+    <div class="register_container">
+            <h2>Register Now</h2>
+            <p class="reg_cross"  onclick="reg_cross()">X</p>
+            <div class="regi_info">
+              <input type="text" placeholder="Enter Your Name" required>
+              <input type="mail" placeholder="Enter Your email" required>
+          <input type="password" placeholder="Enter Your Password" required>
+          <input type="password" placeholder="Confirm Your Password" required>
+            </div>
+            
+        <br>
+        <button class="login_btn">Register Now</button>
+        <div class="register">
+            <p>Already have an account ! 
+                <a href="#" id="register_register">Login Here</a></p>
+        </div>
+        
+    </div>
+
+
+<!-- ----------login page-------------- -->
+
+    <div class="Login_container">
+      <h2>Login In</h2>
+      <p class="log_cross" >X</p>
+
+      <div class="logInnn_info">
+        <img src="/images/drinks/logo-removebg-preview.png" alt="" height="100px" id="logg_logo">
+        <input type="mail" placeholder="Enter Your Name" required>
+        <input type="password" placeholder="Enter Your Password" required>
+      </div>
+
+        <br>
+        <button class="login_btn">Login Now</button>
+        <div class="register">
+            <label >Don't have an account yet? 
+                <a href="#" id="login_login">Register Now</a>
+            </label>
+        </div>
+    </div>
+    
+
+
+    <!-- Main page -->
+        <!-- Navbar content -->
+        <nav class="navbar navbar-expand-lg navbar-light nav">
+          <div class="container-fluid">
+            <a class="nav-link active" aria-current="page" href="#home"><img src="/images/drinks/logo-removebg-preview.png" alt="" height="100px" id="logo"></a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-center">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Products
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="/bakery.html">Bakery</a></li>
+                    <li><a class="dropdown-item" href="/drinks.html">Coffie and Tea</a></li>
+                    <li><a class="dropdown-item" href="/drinks.html">Drinks</a></li>
+                    <li><a class="dropdown-item" href="/meat.html">Meat(Non-veg food)</a></li>
+                    <li><a class="dropdown-item" href="/meat.html">Fruits and Vegetables</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" id="signUp_page">SignUp/ Log In</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping" id="cart_icon"></i></a>
+                  <p class="number_add">0</p>
+                </li>
+              </ul>
+              <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+
+
+<!-- slider -->
+
+<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel" id="home">
+    <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleInterval" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+    
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="/images/main_img1.jpg" class="d-block w-100" alt="...">
+        <div class="heder_img_content">
+            <p class="header_image_slogan">THE FRESHEST GLOCERIES</p>
+            <h1 class="header_offer_title">EXTRA 15% OFF</h1>
+            <p class="header_more_info">Snacks, Condiments, Breakfast Foods & More...</p>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="/images/main_img2.jpg" class="d-block w-100" alt="...">
+        <div class="heder_img_content">
+            <p class="header_image_slogan">LOWEST PRICES GUARANTEED!</p>
+            <h1 class="header_offer_title">HERBS,SPICES & MASALA</h1>
+        </div>
+      </div>
+      <div class="carousel-item" data-bs-interval="3000">
+        <img src="/images/main_img3.jpg" class="d-block w-100" alt="...">
+        <div class="heder_img_content">
+            <h1 class="header_offer_title lolo">100%</h1>
+            <h1 class="header_offer_title">SATISFACTION</h1>
+            <p class="header_more_info">The Freshest Gloceries Delivered to your door 25 Rs off your order of 99 Rs or more</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-visible"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="visually-visible"></span>
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    </button>
+  </div>
+
+
+  <!-- ------------------------- just images  ----------------------------------------------- -->
+
+<div class="just_images">
+    <div class="just_image_img1" >
+        <img src="/images/burgur.jpg" alt="" id="bhushan_img">
+        <div class="just_image_content">
+            <p>Golden Meal at Golden Price</p>
+              <button class="just_image_btn just_img_btn1" id="Burger" >Order Now</button>
+
+            </a>
+        </div>
+    </div>
+    <div class="just_image_img2" >
+        <img src="/images/cooked_chicken.jpg" alt="">
+        <div class="just_image_content">
+            <p>10%  off on all chicken products</p>
+            <a href="/product.html">
+              <!-- <button class="just_image_btn just_img_btn1">Order Now</button> -->
+              <button class="just_image_btn just_img_btn1" id="Cooked Chicken">Order Now</button>
+            </a>
+
+        </div>
+    </div>
+    <div class="just_image_img3">
+        <img src="/images/riceAndDal.jpg" alt="">
+        <div class="just_image_content">
+            <p>Hungry!! Want something delicious</p>
+
+            <a href="/product.html">
+              <button class="just_image_btn just_img_btn1" onclick="selectProduct('Rice And Dal')" id="Rice and Dal">Order Now</button>
+            </a>
+        </div>
+    </div>
+  </div>
+
+
+
+  
+
+<!-- sale products -->
+<div class="sale_products">
+    <h2>Just for You Sale is On</h2>
+
+    <div class="sale_product_items">
+      <div class="ashirvaad"  >
+  <img src="/images/ashirvaad-1-removebg-preview.png" alt="ashirvaad" id="Ashirvaad Rice Pack" >
+  <button class="sales_button" >On Sale</button>
+  <div class="sales_product_other">
+  <p class="sale_product_name">New Ashirvaad rice pack</p>
+  <p class="sale_product_price" id="Ashirvaad Rice Pack">₹ 100</p>
+</a>
+  <!-- <p class="sale_product_cart"><i class="fa-solid fa-cart-shopping"></i> Add to cart</p> -->
+  <button id="Ashirvaad Rice Pack" class="commbtn"> Add to cart</button>
+  </div>
+  </div>
+  <div class="Rice_Papad">
+    <!-- <a href="/product.html"> -->
+    <img src="/images/Rice_Papad.png" alt="Rice_Papad" id="Rice Papad Pack" >
+    <button class="sales_button">On Sale</button>
+    <div class="sales_product_other">
+    <p class="sale_product_name">New Rice Papad pack Of Fryon</p>
+  <p class="sale_product_price">₹ 100</p>
+</a>
+<button id="Rice Papad Pack" class="commbtn"> Add to cart</button>
+  </div>
+  </div>
+  <div class="Strawbeery">
+<!--     
+    <a href="/product.html"> -->
+    <img src="/images/Strawbeery.jpg" alt="Strawbeery"  id="Strawberry Pack">
+    <button class="sales_button">On Sale</button>
+    <div class="sales_product_other">
+    <p class="sale_product_name">New Fresh Strawbeery pack</p>
+  <p class="sale_product_price">₹ 100</p>
+  <button id="Strawberry Pack" class="commbtn"> Add to cart</button>
+
+  </div>
+  </div>
+  <div class="Pasta">
+    <!-- <a href="/product.html"> -->
+    <img src="/images/Gluten_Rice_Maize_Penne_Pasta-removebg-preview.png" alt="Strawbeery"  id="Pasta Pack (Hot)">
+    <button class="sales_button">On Sale</button>
+    <div class="sales_product_other">
+    <p class="sale_product_name">New Pasta pack with Hot taste</p>
+  <p class="sale_product_price">₹ 100</p>
+  <button id="Pasta Pack (Hot)" class="commbtn"> Add to cart</button>
+</a>
+  </div>
+  </div>
+    </div>
+    <br>
+    <br>
+    <div class="view_specials">
+        <button class="view_special_btn">View All Special Offers</button>
+      </div>
+  </div>
+  
+
+
+<!--  cart item -->
+
+  <div class="extDisplay">
+    <p class="cross">X</p>
+    <div class="line"></div>
+    <h3 class="cartName">Your cart</h3>
+    <ul class="productList">
+  <div style="background-color: white; " height="2px"></div>
+    </ul>
+  
+    <div class="checkout">
+  <div class="total"> <small>Subtotal (0 items)</small>0 Rs</div>
+    </div>
+  </div>
+  <!-- product_container ends here -->
+
+
+<!-- flex images starts here----------------------------- -->
+<div class="flex_product_pic">
+    <div class="flex_product_images">
+        <div class="flex_product_img1 pro1">
+            <img src="/images/freshMeat.jpg" alt="">
+            <p>Best Meat</p>
+        </div>
+        <div class="flex_product_img1 pro2">
+            <img src="/images/fishPieces.jpg" alt="">
+            <p>Fresh Fish</p>
+            <div class="flex_product_img1 pro22">
+            <img src="/images/fruits.jpg" alt="">
+            <p>Dry Fruits</p>
+        </div>
+        </div>
+    </div>
+    <div class="flex_product_images2">
+        <img src="/images/meal.jpg" alt="">
+        <div class="flex_delicious">
+            <p>Delicious meal with fresh Food and vegetables</p></div>
+    </div>
+
+    <div class="flex_product_dialouge">
+        <div class="flex_product_dialouge1"><h1>Order Your Meal From The BEST ONE</h1>
+        </div>
+        <div class="flex_product_dialouge2"><h1>Don't Think Just Eat</h1>
+        </div>
+        <div class="flex_product_dialouge2"><h1>Hurry Up!! Discount Is On...!!</h1>
+        </div>
+        
+    </div>
+</div>
+
+<!-------------------------- deals of this week------------------------------ -->
+
+<div class="deals_container">
+    <div class="deals_container_header">
+        <h1>Deals Of The Week's</h1>
+    </div>
+    <div class="deals_container_items">
+        <div class="deal_item1">
+            <div class="deal_item_img">
+              <!-- <a href="/justSale.html"> -->
+                <img src= "/images/peas/peas1.png"alt="Peas" id="Peas">
+              </a>
+        </div>
+        <div class="deal_item_details">
+            <h2 class=deal_item_price>Now Rs. 56</h2>
+            <p class=deal_item_oldPrice>Rs 80</p>
+            <p class=deal_item_name>Peas Dried  Dehydrate</p>
+            <p class=deal_item_discount>-30% OFF</p>
+            <p class=deal_item_para>Many people love supermarkets for the variety of products they can buy...</p>
+        </div>
+        </div>
+
+        <div class="deal_item1">
+          <div class="deal_item_img">
+            <!-- <a href="/justSale.html"> -->
+              <img src= "/images/apple/apple1-removebg-preview.png"alt="Peas" id="Apple">
+            </a>
+      </div>
+      <div class="deal_item_details">
+          <h2 class=deal_item_price>Now Rs. 117</h2>
+          <p class=deal_item_oldPrice>Rs 130</p>
+          <p class=deal_item_name>Fresh Apple Products</p>
+          <p class=deal_item_discount>-10% OFF</p>
+          <p class=deal_item_para>Many people love supermarkets for the variety of products they can buy...</p>
+      </div>
+      </div>
+
+    </div>
+</div>
+    <div class="deals_container_items">
+        <div class="deal_item1">
+            <div class="deal_item_img">
+              <!-- <a href="/justSale.html"> -->
+            <img src="/images/coffie/coffee1.jpg"alt="" id="coffee1">
+          </a>
+        </div>
+        <div class="deal_item_details">
+            <h2 class=deal_item_price>Now Rs. 210</h2>
+            <p class=deal_item_oldPrice>Rs 300</p>
+            <p class=deal_item_name>Ground Coffee Original</p>
+            <p class=deal_item_discount>-30% OFF</p>
+            <p class=deal_item_para>Many people love supermarkets for the variety of products they can buy...</p>
+        </div>
+        </div>
+
+        <div class="deal_item1">
+            <div class="deal_item_img">
+              <!-- <a href="/justSale.html"> -->
+            <img src="/images/coke/coca.png" alt="" id="coca">
+          </a>
+        </div>
+        <div class="deal_item_details">
+            <h2 class=deal_item_price>Now Rs. 45</h2>
+            <p class=deal_item_oldPrice>Rs 50</p>
+            <p class=deal_item_name>Coca Cola</p>
+            <p class=deal_item_discount>-10% OFF</p>
+            <p class=deal_item_para>Many people love supermarkets for the variety of products they can buy...</p>
+        </div>
+        </div>
+    </div>
+
+    <!-- ---------Contact page------------->
+    <div class="contact-container" id="contact">
+        <h1>Contact Us</h1>
+        <p>We would love to hear from you! Please fill out this form and we will get in touch with you shortly.</p>
+
+        <form action="#" class="contact-form">
+            <div class="form-group form-inline">
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" required placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+
+    <!-- ------------------footer-------------------------- -->
+    <footer>
+        <div class="footer_content">
+            <div class="footer_side1">
+            <!-- logo -->
+            <p class="glo_name">Glocery India store</p>
+            <p class="phone_no">(111-111-111-11)</p>
+            <p class="footer_mail">
+            <a href="mailto:bhushan752002@gmail.com">bhushan752002@gmail.com</a>
+            </p>
+            <p class="footer_copyright">copyright- @bhushan_dandavate.</p>
+            </div>
+
+            <div class="footer_side2">
+            <p class="footer_para">INFORMATION</p>
+            <ul>
+                <li><a href="/delivery.html">Delivery</a></li>
+                <li><a href="/legalNotice.html">Legal Notice</a></li>
+                <li><a href="/termsConditions.html">Terms and conditions</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="/payment.html">Secure payments</a></li>
+                <li><a href="/contact.html">Contact us</a></li>
+                <li><a href="#">Stores</a></li>
+            </ul>
+            </div>
+
+            <div class="footer_side3">
+            <p class="footer_para">HOME</p>
+            <ul>
+              <li><a href="/bakery.html">Bakery</a></li>
+                <li><a href="/drinks.html">Beer</a></li>
+                <li><a href="#">Coffee and Tea</a></li>
+                <li><a href="/meat.html">Meat</a></li>
+                <li><a href="/meat.html">Seafood</a></li>
+                <li><a href="#">Prepared food</a></li>
+            </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+<script src="script2.js"></script>
+
+</body>
+</html>
