@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color:  #000000;
+}
 
 .delivery_content{
     text-align: center;
@@ -123,4 +127,11 @@
         padding: 10px;
         height: 60.5vh;
     }
+        #logo {
+            margin-top: 0;
+            cursor: pointer;
+            transition: all 1s ease-in-out;
+            position: relative;
+            top: 12px;
+        }
 }

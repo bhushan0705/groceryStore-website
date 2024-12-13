@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color:  #000000;
+}
 .legalNotice_content h1{
     text-align: center;
     font-size: 40px;
@@ -80,4 +84,11 @@ font-weight: 550;
         margin-top: 0;
         margin-bottom: -19px;
     }
+    #logo {
+        margin-top: 5px;
+        cursor: pointer;
+        transition: all 1s ease-in-out;
+        position: relative;
+        top: 12px;
+}
 }

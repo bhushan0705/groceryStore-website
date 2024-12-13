@@ -4,6 +4,10 @@ body{
     box-sizing: border-box;
 
 }
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color:  #000000;
+}
 #logo{
     margin-top: 13.5px;
     cursor: pointer;
@@ -53,7 +57,7 @@ i{
 }
 .extDisplay {
     display: block;
-    color: white;
+    color: var(--primary-color);
     position: absolute;
     top: 17.2%;
     right: 0px;
@@ -75,7 +79,7 @@ i{
 .checkout {
     position: sticky; 
     top: 10px;
-    background-color: black; 
+    background-color: var(--secondary-color); 
     padding: 10px;
     z-index: 100; 
 }
@@ -126,4 +130,11 @@ i{
         padding: 10px;
         height: 60.5vh;
     }
+    #logo {
+        margin-top: 0;
+        cursor: pointer;
+        transition: all 1s ease-in-out;
+        position: relative;
+        top: 12px;
+}
 }

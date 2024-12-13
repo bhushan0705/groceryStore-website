@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color:  #000000;
+}
 .payment_content h1{
     font-size: 40px;
     font-weight: 700;
@@ -69,6 +73,13 @@
 }
 .payment_method_content i {
     font-size: 45px;
+}
+#logo {
+    margin-top: 0;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    position: relative;
+    top: 12px;
 }
 
 }

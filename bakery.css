@@ -3,6 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+:root {
+    --primary-color: #FFFFFF;
+    --secondary-color:  #000000;
+}
 
 /* side bar */
 .bakery_product_side{
@@ -29,7 +33,6 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-
     gap: 20px;
 }
 
@@ -51,7 +54,7 @@
     gap: 10px;
 }
 .number_add{
-    color: white;
+    color: var(--primary-color);
     position: absolute;
     top: 24px;
     right: 342px;
@@ -68,7 +71,6 @@
 }
 .productList{
     margin-top: 20px;
-    /* overflow-y: scroll; */
 }
 .line_define{
     height: 2px;
@@ -79,7 +81,7 @@
 
 .extDisplay {
     display: block;
-    color: white;
+    color: var(--primary-color);
     position: absolute;
     top: 17.2%;
     right: 0px;
@@ -100,7 +102,7 @@
 .checkout {
     position: sticky; /* Keeps it visible at the bottom while scrolling */
     top: 10px;/* Stick to the bottom of the parent container */
-    background-color: black; /* Optional for visibility */
+    background-color: var(--secondary-color); /* Optional for visibility */
     padding: 10px;
     z-index: 100; /* Ensure it's above other elements */
 }
@@ -138,7 +140,7 @@
     gap: 10px;
 }
 .number_add{
-    color: white;
+    color: var(--primary-color);
     position: absolute;
     top: 24px;
     right: 342px;
@@ -163,23 +165,6 @@
     width: 100%;
     margin: 10px 0;
 }
-
-/* .extDisplay {
-    display: none;
-    color: white;
-    position: absolute;
-    top: 23.9%;
-    right: 0;
-    width: 400px;
-    padding: 10px;
-    height: 77.5vh;
-    transition: 0.5s;
-    background: rgb(0 0 0 / 91%);
-    z-index: 99;
-    border-radius: 10px;
-    overflow-y: scroll; /* Allow scrolling inside the container 
-} */
-
 .productList {
     margin-bottom: 60px; /* Space for the fixed checkout */
     overflow-y: auto;
@@ -188,14 +173,10 @@
 .checkout {
     position: sticky; /* Keeps it visible at the bottom while scrolling */
     top: 10px;/* Stick to the bottom of the parent container */
-    background-color: black; /* Optional for visibility */
+    background-color: var(--secondary-color); /* Optional for visibility */
     padding: 10px;
     z-index: 100; /* Ensure it's above other elements */
 }
-
-
-
-
 
 
 /* making it responsive */
@@ -226,5 +207,12 @@
     width: 330px;
     padding: 10px;
     height: 60.5vh;
+}
+#logo {
+    margin-top: 0;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+    position: relative;
+    top: 12px;
 }
 }
