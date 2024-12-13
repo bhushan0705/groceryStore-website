@@ -939,9 +939,13 @@ ul li a:hover {
     top: 12px;
 }
 
-.register_container {
-    top: 40%;
-    left: 10%;
+.hero .register_container {
+    top: 23.5rem;
+    left: 0.3rem;
+}
+.Login_container{
+    top: 23.5rem;
+    left: 0.3rem;
 }
 
 }
