@@ -7,8 +7,7 @@
     text-align: center;
     font-size: 40px;
     font-weight: 700;
-    margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom:40px;
 }
 .terms_conditions{
     padding: 50px;
@@ -39,7 +38,7 @@
     }
 
     #logo{
-        margin-top: 13.5px;
+        margin-top: 30px;
         cursor: pointer;
         transition: all 1s ease-in-out;
     }

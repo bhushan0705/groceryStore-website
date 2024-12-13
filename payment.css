@@ -6,9 +6,8 @@
 .payment_content h1{
     font-size: 40px;
     font-weight: 700;
-    margin-top: 50px;
     text-align: center;
-    padding: 50px;
+    padding-top: 50px;
 }
 .payment_method_header h1{
     font-size: 30px;

@@ -767,10 +767,9 @@ ul li a:hover {
     border: 2px solid green;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 10px 0;
+    padding: 12.5px 0;
     gap: 120px;
-    position: sticky;
-    bottom: 100px;
+    margin-left: 10px;
 }
 .cross{
     position: absolute;
@@ -782,6 +781,16 @@ ul li a:hover {
     text-align: center;
 
 }
+
+
+
+
+
+
+
+
+
+
 
 /* making it responsive */
 @media(max-width:660px){
@@ -925,8 +934,8 @@ ul li a:hover {
     font-size: 11px;
 }
 .extDisplay {
-    top: 47%;
-    right: 12%;
+    top: 26rem;
+    left: 0.9rem;
     width: 330px;
     padding: 10px;
     height: 60.5vh;

@@ -7,6 +7,7 @@
     height: 347px;
     width: 220px;
 }
+
 .sale_item{
     display: flex;
     justify-content: space-between;
@@ -66,7 +67,7 @@
     border: none;
 }
 #logo{
-    margin-top: 13.5px;
+    margin-top: 30px;
     cursor: pointer;
     transition: all 1s ease-in-out;
 }

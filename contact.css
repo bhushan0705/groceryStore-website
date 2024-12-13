@@ -19,8 +19,11 @@ body{
     padding: 50px;
 }
 
-iframe{
-    height: 400px;
+#map{
+    width:600px;
+    height: 450px;
+    border: 0;
+    /* filter: blur(2px); */
 }
 .location,.phone,.mail{
     display: flex;
@@ -32,4 +35,95 @@ i{
     position: relative;
     top: 5px;
 
+}
+.minus,
+.plus{
+    padding: 2px 10px;
+    border: none;
+    border-radius: 10px;
+}
+.productList{
+    margin-top: 20px;
+}
+.line_define{
+    height: 2px;
+    background-color: red;
+    width: 100%;
+    margin: 10px 0;
+}
+.extDisplay {
+    display: block;
+    color: white;
+    position: absolute;
+    top: 17.2%;
+    right: 0px;
+    width: 400px;
+    padding: 10px;
+    height: 76.8vh;
+    transition: 0.5s;
+    background: rgb(0 0 0 / 91%);
+    z-index: 99;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.productList {
+    margin-bottom: 60px; 
+    overflow-y: auto;
+}
+
+.checkout {
+    position: sticky; 
+    top: 10px;
+    background-color: black; 
+    padding: 10px;
+    z-index: 100; 
+}
+
+.total {
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 12.5px 0;
+    gap: 120px;
+    margin-left: 3px;
+}
+.cross{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    cursor: pointer;
+}
+.cartName{
+    text-align: center;
+}
+
+.btn_shopee{
+    border: none;
+    background-color: transparent;
+    font-size: 15px;
+    cursor: pointer;
+    color: green;
+}
+
+
+/* responsive */
+@media screen and (max-width:785px){
+    #map{
+        width:350px;
+        height: 500px;
+        border: 0;
+    }
+    .contact_container {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .extDisplay {
+        top: 26rem;
+        left: 0.9rem;
+        width: 330px;
+        padding: 10px;
+        height: 60.5vh;
+    }
 }

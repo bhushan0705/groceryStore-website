@@ -9,7 +9,7 @@
     object-fit: cover;
 }
 .visible_product{
-    padding: 50px 50px 50px 0px;
+    padding: 50px 50px 46px 0px;
     display: flex;
     gap: 100px;
 }
@@ -133,8 +133,9 @@
     border: 2px solid green;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 10px 0;
+    padding: 12.5px 0;
     gap: 120px;
+    margin-left: 3px;
 }
 .cross{
     position: absolute;
@@ -171,16 +172,8 @@
     display: none;
 }
 .extDisplay {
-    display: block;
-    color: white;
-    position: absolute;
-    top: 58.9%;
-    right: 24px;
-    width: 330px;
-    padding: 10px;
-    height: 60.5vh;
-    top: 47%;
-    right: 12%;
+    top: 26rem;
+    left: 0.9rem;
     width: 330px;
     padding: 10px;
     height: 60.5vh;
